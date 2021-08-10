@@ -1,7 +1,7 @@
 # arch-repo
 Repository containing the dwm, dmenu and st builds.
 
-##Installation
+## Installation
 In order to install the packages provided in this repository add to the file /etc/pacman.conf the following lines:
 
 ```
@@ -21,7 +21,7 @@ And then:
 $ sudo pacman -S name-of-package
 ```
 
-##Packages
+## Packages
 1. dwm-razvan-git
 2. dmenu-razvan-git
 3. st-razvan-git
