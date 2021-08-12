@@ -7,8 +7,10 @@ In order to install the packages provided in this repository add to the file /et
 ```
 [arch-repo]
 SigLevel = Optional DatabaseOptional
-Server = https://raw.githubusercontent.com/razvan171514/$repo/master/$arch
+Server = https://github.com/razvan171514/$repo/raw/master/$arch
 ```
+
+> **Note:** If you add this repository to a bare arch installation use ```SigLevel = Never```
 
 After adding the lines to the pacman.conf you have to syncronize the repositories using:
 
